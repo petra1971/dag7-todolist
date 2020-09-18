@@ -76,7 +76,7 @@ public class TestProgram {
         }
     }
     public static void modifyTodoItem(){
-        System.out.print("Vilken uppgift vill du ändra? ");
+        System.out.print("Vilken uppgift ville du ändra? ");
         String modifyItem = scanner.nextLine();
         System.out.print("Uppdaterad uppgift: ");
         String newItem = scanner.nextLine();
