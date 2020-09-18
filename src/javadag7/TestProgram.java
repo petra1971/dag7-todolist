@@ -84,7 +84,7 @@ public class TestProgram {
     }
 
     public static void removeItem(){
-        System.out.println("Vilken uppgift vill du ta bort? ");
+        System.out.println("Vilken av alla uppgifter att göra vill du ta bort? ");
         String item = scanner.nextLine();
         toDoList.removeTodoItem(item);
     }
